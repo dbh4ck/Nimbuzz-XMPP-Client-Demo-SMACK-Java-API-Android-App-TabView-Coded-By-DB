@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.db.nimbuzz_app_tabview_by_db.MainActivity"
+    android:orientation="vertical"
+    android:background="#bababa">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lbldb"
+        android:text="@string/hello_db"
+        android:textColor="#fb0564"
+        android:textSize="@dimen/design_snackbar_padding_vertical_2lines"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/textView2"
+        android:textColor="#fce907ed"
+        android:textSize="25sp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/lbldb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lbluser"
+        android:text="@string/lbl_username"
+        android:textColor="#074dfe"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUser"
+        android:layout_below="@+id/lbluser"
+        android:inputType="text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#034efd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblPwd"
+        android:text="@string/lbl_pwd"
+        android:textColor="#084afc"
+        android:layout_below="@+id/txtUser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPwd"
+        android:layout_below="@+id/lblPwd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#034efd" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:textColor="#0b42f6"
+        android:id="@+id/btnSignin"
+        android:layout_below="@+id/txtPwd"
+        android:onClick="onClickLoginBtn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_dbh4ck"
+        android:id="@+id/textViewDbLink"
+        android:autoLink="web"
+        android:layout_below="@+id/btnSignin"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fc4108" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_dbmail"
+        android:textSize="@dimen/abc_floating_window_z"
+        android:id="@+id/textViewDbEmail"
+        android:layout_below="@+id/textViewDbLink"
+        android:layout_centerHorizontal="true"
+        android:textColor="#198104" />
+
+</RelativeLayout>

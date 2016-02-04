@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.db.nimbuzz_app_tabview_by_db.AboutDbFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:visibility="visible"
+        android:contentDescription="@string/dbimg"
+        android:src="@drawable/dbhere2"
+        android:longClickable="false"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/textView12"
+        android:textSize="18sp"
+        android:textColor="#f60606"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/textView23"
+        android:layout_toStartOf="@+id/textView23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dbname"
+        android:id="@+id/textView13"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:textSize="18sp"
+        android:textColor="#0612f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:textColor="#f60606"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dbage"
+        android:id="@+id/textView15"
+        android:textSize="18sp"
+        android:textColor="#0612f7"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/langs"
+        android:id="@+id/textView16"
+        android:textSize="18sp"
+        android:textColor="#f60606"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:id="@+id/textView18"
+        android:textSize="18sp"
+        android:textColor="#f60606"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dblocation"
+        android:id="@+id/textView19"
+        android:textSize="18sp"
+        android:textColor="#0612f7"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dblangs"
+        android:id="@+id/textView17"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:textSize="18sp"
+        android:textColor="#0612f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutdb"
+        android:id="@+id/textView20"
+        android:textColor="#b80a7b"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutapp"
+        android:id="@+id/textView21"
+        android:textSize="25sp"
+        android:textColor="#b80a7b"
+        android:layout_below="@+id/textView19"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutappinfo"
+        android:id="@+id/textView22"
+        android:textSize="20sp"
+        android:textColor="#0b69ed"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coderdb"
+        android:id="@+id/textView23"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#04fcae"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

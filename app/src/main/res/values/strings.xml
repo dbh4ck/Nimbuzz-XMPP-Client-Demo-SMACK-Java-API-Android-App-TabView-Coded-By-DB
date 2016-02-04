@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Nimbuzz_App_TabView_By_DB</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lbl_username">Username:</string>
+    <string name="lbl_pwd">Password:</string>
+    <string name="btn_login">Sign In</string>
+    <string name="hello_db">Nimbuzz Login Coded by db~@NC</string>
+    <string name="txt_username"></string>
+    <string name="txt_pwd"></string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_dbhere">dbhere</string>
+    <string name="title_activity_db2">db2</string>
+    <string name="lbl_wcusername">Welcome</string>
+    <string name="lbl_wcuserinfo">You are now Online!</string>
+    <string name="lbl_dbh4ck">Visit My Blog: http://dbh4ck.blogspot.in</string>
+    <string name="lbl_dbmail">Report Bugs: dbh4ck@gmail.com</string>
+    <string name="login">Login with your Nimbuzz ID:</string>
+    <string name="logout">Logout</string>
+    <string name="urjid">Your Nimbuzz ID:</string>
+    <string name="urmsg">Your Message:</string>
+    <string name="sendmsg">Send Message To DB~@NC</string>
+    <string name="title_activity_db_tab">dbTabActivity</string>
+    <string name="title_activity_contact_list">ContactList</string>
+    <string name="title_activity_chatroom">ChatroomActivity</string>
+    <string name="title_activity_aboutdb">AboutdbActivity</string>
+    <string name="title_activity_dbtabs">DBTabs</string>
+    <string name="dbinfo">Nimbuzz App With TabView</string>
+    <string name="dbinfo2">Coded By DB~@NC</string>
+    <string name="dbinfo3">Email: dbh4ck@gmail.com</string>
+    <string name="dbinfo4">Blog: http://dbh4ck.blogspot.in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Name:</string>
+    <string name="dbname">Sarj</string>
+    <string name="age">Age:</string>
+    <string name="dbage">23</string>
+    <string name="location">Location:</string>
+    <string name="dblocation">Gujarat, India</string>
+    <string name="aboutdb">About DB~@NC</string>
+    <string name="aboutapp">About This App</string>
+    <string name="aboutappinfo">XMPP Client Nimbuzz DEMO For Android Using SMACK (PURE JAVA Lib.)</string>
+    <string name="langs">Hobbies:</string>
+    <string name="coderdb">Coded By DB~@NC</string>
+    <string name="dblangs">C# , JAVA , Python(Scripts) , wxPython (GUI Interface), Windows Form Applications(Desktop), Android Development</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_db_main_tab">DbMainTabActivity</string>
+    <string name="dbimg">dbimg</string>
+    <string name="joinroom">Start Conference Chatting!</string>
+    <string name="roomname">Enter Roomname:</string>
+    <string name="enterroom">Enter in Room</string>
+    <string name="header"> Header</string>
+    <string name="title_activity_miri">MiriActivity</string>
+    <string name="send2">Send</string>
+    <string name="sender">Sender:</string>
+    <string name="message">Message</string>
+    <string name="avatar">avatar</string>
+    <string name="ok">OK</string>
+    <string name="dbhere">dbinf0</string>
+    <string name="targetid">Target User Id: db~</string>
+    <string name="targetmsg">Type Your Message</string>
+</resources>

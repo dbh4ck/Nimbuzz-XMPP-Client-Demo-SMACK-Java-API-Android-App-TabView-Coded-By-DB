@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/roomname"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/roomname"
+        android:layout_toStartOf="@+id/enterconfroombtn"
+        android:layout_toLeftOf="@+id/enterconfroombtn" />
+
+    <Button
+        android:id="@+id/enterconfroombtn"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:background="@drawable/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTintMode="multiply"
+        android:visibility="visible"
+        android:clickable="true"
+        android:layout_above="@android:id/list" />
+
+    <Button
+        android:id="@+id/sendRoomMsgButton"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:background="@drawable/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:allowUndo="false"
+        android:backgroundTintMode="multiply"
+        android:visibility="visible"
+        android:clickable="true"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:id="@+id/yourRoomMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_alignBottom="@+id/sendRoomMsgButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/sendRoomMsgButton"
+        android:layout_toStartOf="@+id/sendRoomMsgButton"
+        android:hint="@string/targetmsg" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/yourRoomMessage"
+        android:id="@android:id/list"
+        android:divider="@android:color/black"
+        android:layout_below="@+id/roomname" />
+
+</RelativeLayout>
